@@ -1,0 +1,88 @@
+
+Fiche de suivi du projet de réalisation technique de la cartographie sonore du lycée Boutet de Monvel
+
+I) Compilation des donnée
+
+Fichier CSV
+
+Lieu + index temps + minimum + maximum + moyenne
+
+Lieu :
+
+CDI
+Ateliers
+Cantine
+Permanence
+Vie Scolaire
+Gymnase
+Cours de Récréation
+Salle de musculation
+Internat
+Salle de classe
+Laboratoire
+Couloirs
+Adminstration
+Salle des profs
+
+
+index temps :
+
+1 = avant 8 heure
+2 = pdt les cours
+3 = interclasse
+4 = recré
+5 = pause midi
+6 = sortie
+
+
+II) Code
+
+On utilise Python,Tkinter et CSVReader
+
+III) Cartographie des points d'application 
+
+580 pixel = l'allée à coté du parking = 130 m
+
+atténuation sonore = on perd 6 dB à chaque doublement de distance
+
+espace de dessin : 700 * 1000
+
+Concept : 
+
+La carte se dessine selon l'HEURE 
+On considere les sources de bruit comme de multiples points disseminé sur la surface de provenance du bruit pour limiter les comparaisons
+
+lieu_cdi = [(287,241)]
+lieu_ateliers = [(445,366),(405,629),(619,710)]
+lieu_cantine = [(339,896)]
+lieu_perm = [(356,303)]
+lieu_vie_sco = [(300,306)]
+lieu_gymnase = [(105,489)]
+lieu_recre = [(344,408),(358,197)]
+lieu_muscu = [(453,584)]
+lieu_internat = [(187,69)]
+lieu_classe = [(430,546),(378,246)]
+lieu_labo = [(378,107)]
+lieu_couloirs = [(421,565),(468,432)]
+lieu_admin = [(543,798),(549,931)]
+lieu_profs = [(288,170)]
+
+
+On divise le plan en unité de hauteur et largeur x et on calcul son intensité sonore grace au calcul de distance avec tous les points de sources sonores
+
+
+
+pour la reduction materielle du aux murs : 
+
+on prend une sous image plan_mur : fait 
+
+les murs sont en noir l'air en blanc
+
+1) calculer l'equation de 1er degré du points a determiner et du points de source
+
+sur l'intervalle x point 1 et x point 
+
+2) calculer les pixels noir sur plan_mur sur la ligne d'équation
+
+selon le nombre de point noir sur la trajectoire , les dB sont atténué
+

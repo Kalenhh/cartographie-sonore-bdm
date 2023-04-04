@@ -1,0 +1,85 @@
+Lieu;1;Mini;Maxi;Moy
+CDI;1;None;None;None
+CDI;2;25;73;29
+CDI;3;None;None;None
+CDI;4;26;72;33
+CDI;5;None;None;None
+CDI;6;None;None;None
+Ateliers;1;None;None;None
+Ateliers;2;63;83;68
+Ateliers;3;None;None;None
+Ateliers;4;None;None;None
+Ateliers;5;None;None;None
+Ateliers;6;None;None;None
+Cantine;1;62;75;65
+Cantine;2;62;75;65
+Cantine;3;62;75;65
+Cantine;4;62;75;65
+Cantine;5;82;90;87
+Cantine;6;62;75;65
+Permanence;1;45;89;70
+Permanence;2;34;72;44
+Permanence;3;47;90;75
+Permanence;4;45;88;71
+Permanence;5;40;87;53
+Permanence;6;36;67;44
+Vie Scolaire;1;33;80;50
+Vie Scolaire;2;33;68;43
+Vie Scolaire;3;43;83;66
+Vie Scolaire;4;49;74;62
+Vie Scolaire;5;None;None;None
+Vie Scolaire;6;41;71;51
+Gymnase;1;None;None;None
+Gymnase;2;66;88;77
+Gymnase;3;66;88;77
+Gymnase;4;None;None;None
+Gymnase;5;None;None;None
+Gymnase;6;64;84;73
+Cours;1;35;54;42
+Cours;2;38;60;52
+Cours;3;57;84;67
+Cours;4;49;60;52
+Cours;5;50;89;75
+Cours;6;49;54;51
+Salle de muscu;1;29;45;33
+Salle de muscu;2;53;89;73
+Salle de muscu;3;34;49;42
+Salle de muscu;4;32;64;38
+Salle de muscu;5;30;41;34
+Salle de muscu;6;35;44;39
+Internat;1;40;50;46
+Internat;2;50;60;52
+Internat;3;50;60;52
+Internat;4;50;60;52
+Internat;5;50;60;52
+Internat;6;50;60;52
+Salle de classe;1;38;50;45
+Salle de classe;2;49;86;69
+Salle de classe;3;43;60;47
+Salle de classe;4;36;60;47
+Salle de classe;5;24;47;38
+Salle de classe;6;45;79;66
+Laboratoire;1;27;55;41
+Laboratoire;2;49;73;61
+Laboratoire;3;50;79;64
+Laboratoire;4;55;80;67
+Laboratoire;5;29;37;33
+Laboratoire;6;46;60;53
+Couloirs;1;30;76;46
+Couloirs;2;46;83;61
+Couloirs;3;34;75;59
+Couloirs;4;62;85;71
+Couloirs;5;29;66;42
+Couloirs;6;31;79;58
+Administration;1;41;52;45
+Administration;2;46;71;48
+Administration;3;49;78;52
+Administration;4;47;73;49
+Administration;5;42;68;45
+Administration;6;50;90;58
+Salle des Profs;1;54;89;69
+Salle des Profs;2;42;71;56
+Salle des Profs;3;None;None;None
+Salle des Profs;4;62;89;80
+Salle des Profs;5;42;74;58
+Salle des Profs;6;None;None;None
